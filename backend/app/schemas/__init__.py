@@ -1,6 +1,5 @@
-from .schemas import User, UserCreate, Token, TokenData
+from .schemas import User, Token, TokenData
 
 __all__ = ['User',
-           'UserCreate',
            'TokenData',
            'Token']

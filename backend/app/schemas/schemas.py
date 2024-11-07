@@ -4,10 +4,7 @@ from pydantic import BaseModel
 class User(BaseModel):
     username: str
     email: str
-
-
-class UserCreate(User):
-    password: str
+    disabled: bool | None = None
 
 
 class Token(BaseModel):

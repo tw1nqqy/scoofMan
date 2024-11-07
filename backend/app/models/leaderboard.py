@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy import Integer, ForeignKey
 from backend.app.database.db import Base
-from backend.app.models import User
+from .user import User
 
 
 class Leaderboard(Base):
